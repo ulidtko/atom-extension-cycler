@@ -1,5 +1,5 @@
 # extension-cycler package
 
-A short description of your package.
+Allows to switch between files of same basename in the same directory, but with differing *extensions*, e.g. `FooBar.cxx` ↔ `FooBar.hh`.
 
-![A screenshot of your package](https://f.cloud.github.com/assets/69169/2290250/c35d867a-a017-11e3-86be-cd7c5bf3ff9b.gif)
+![screencap demo](demo.gif)

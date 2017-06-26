@@ -3,7 +3,7 @@
   'atom-text-editor': [
     {
       'label': 'Toggle extension-cycler'
-      'command': 'extension-cycler:toggle'
+      'command': 'extension-cycler:engage'
     }
   ]
 'menu': [
@@ -14,7 +14,7 @@
       'submenu': [
         {
           'label': 'Toggle'
-          'command': 'extension-cycler:toggle'
+          'command': 'extension-cycler:engage'
         }
       ]
     ]
