@@ -8,7 +8,7 @@
   "activationCommands": {
     "atom-workspace": "extension-cycler:engage"
   },
-  "repository": "https://github.com/atom/extension-cycler",
+  "repository": "https://github.com/ulidtko/atom-extension-cycler",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
