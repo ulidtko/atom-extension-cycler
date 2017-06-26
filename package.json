@@ -1,10 +1,9 @@
 {
   "name": "extension-cycler",
   "main": "./lib/extension-cycler",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Cycle through files with same pathname & different extensions on hotkey",
-  "keywords": [
-  ],
+  "keywords": [],
   "activationCommands": {
     "atom-workspace": "extension-cycler:engage"
   },
@@ -13,6 +12,5 @@
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
-  "dependencies": {
-  }
+  "dependencies": {}
 }
