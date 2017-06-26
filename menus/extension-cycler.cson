@@ -1,0 +1,22 @@
+# See https://atom.io/docs/latest/hacking-atom-package-word-count#menus for more details
+'context-menu':
+  'atom-text-editor': [
+    {
+      'label': 'Toggle extension-cycler'
+      'command': 'extension-cycler:toggle'
+    }
+  ]
+'menu': [
+  {
+    'label': 'Packages'
+    'submenu': [
+      'label': 'extension-cycler'
+      'submenu': [
+        {
+          'label': 'Toggle'
+          'command': 'extension-cycler:toggle'
+        }
+      ]
+    ]
+  }
+]
