@@ -1,12 +1,12 @@
 {
   "name": "extension-cycler",
   "main": "./lib/extension-cycler",
-  "version": "0.0.0",
-  "description": "A short description of your package",
+  "version": "0.0.1",
+  "description": "Cycle through files with same pathname & different extensions on hotkey",
   "keywords": [
   ],
   "activationCommands": {
-    "atom-workspace": "extension-cycler:toggle"
+    "atom-workspace": "extension-cycler:engage"
   },
   "repository": "https://github.com/atom/extension-cycler",
   "license": "MIT",

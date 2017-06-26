@@ -14,7 +14,7 @@ module.exports = ExtensionCycler =
     @subscriptions = new CompositeDisposable
 
     # Register command that toggles this view
-    @subscriptions.add atom.commands.add 'atom-workspace', 'extension-cycler:toggle': => @toggle()
+    @subscriptions.add atom.commands.add 'atom-workspace', 'extension-cycler:engage': => @engage()
 
   deactivate: ->
     @modalPanel.destroy()
@@ -24,7 +24,7 @@ module.exports = ExtensionCycler =
   serialize: ->
     extensionCyclerViewState: @extensionCyclerView.serialize()
 
-  toggle: ->
+  engage: ->
     console.log 'ExtensionCycler was toggled!'
 
     if @modalPanel.isVisible()
